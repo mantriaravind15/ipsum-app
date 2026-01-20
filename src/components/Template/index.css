@@ -1,0 +1,43 @@
+.main-container-template {
+  padding: 20px;
+}
+
+.template-form {
+  display: flex;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-fields input,
+.input-fields select {
+    width: 176px;
+  padding: 8px;
+}
+
+.create-structure-btn{
+    width: 176px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #CF682F;
+    font-family: poppins;
+    color: #ffffff;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 14px;
+border: 0px;
+cursor: pointer;
+letter-spacing: 0.9px;
+}
+
+.labels{
+    color: #6C5243;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'poppins';
+}

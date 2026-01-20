@@ -59,8 +59,10 @@ const LoginPage = () => {
           Forgot Password?
         </button>
       </form>
-      <div>
-     
+      <div className='social-media-links'>
+        <img  src="linkedin_square 1.png" alt='linkedin'/>
+        <img src="Flat_copy (1).png" alt='facebook'/>
+        <img src="twitter-2 1.png" alt='twitter'/>
       </div>
       <p>© Copyright Dyaz Innovate 2023. All rights reserved.</p>
     </div>

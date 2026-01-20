@@ -89,3 +89,14 @@ margin-right: 4px;
    
     
 }
+.social-media-links{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media-links img {
+  cursor: pointer;
+}
