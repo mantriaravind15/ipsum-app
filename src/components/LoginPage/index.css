@@ -1,0 +1,91 @@
+.logo{
+    height: 81.24px;
+    margin-bottom: 30px;
+}
+
+.login-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  width: 435px;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
+}
+
+.input-boxes {
+  border: none;
+  outline: none;
+  font-size: 12px;
+  font-family: poppins;
+  font-weight: 300;
+  color: #333C31;
+  flex: 1;
+}
+
+
+.signin-btn{
+    width: 100%;
+    height: 47px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: poppins;
+    background-color:  #CF682F;
+    border: 0px;
+    border-radius:6px;
+    margin-bottom: 20px
+;
+}
+
+.forgot-btn{
+    color: #2C3A47;
+    background-color: transparent;
+    border: 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: poppins;
+    line-height: 100%;
+    cursor:pointer;
+}
+
+.error-msg-container{
+height: 45px;
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F6647F2E;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px
+}
+
+.error-icon{
+height: 17px;
+margin-right: 4px;
+
+}
+
+.error-msg{
+    color: #D90202;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: poppins;
+    align-items: center;
+   
+    
+}
