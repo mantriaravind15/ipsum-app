@@ -47,19 +47,20 @@ const LoginPage = () => {
           />
           <input value={password} onChange={onChangePassword}  className='input-boxes'  type="password" placeholder="PASSWORD" />
         </div>
-        <div className='error-msg-container'>
+        {error&& (        
+          <div className='error-msg-container'>
             <img className='error-icon' src='error-circle 1.png' alt="error-icon"/>
             <p className='error-msg'>{error}</p>
-        </div>
+        </div>)
+        }
+
         <button className="signin-btn">SIGN IN</button>
         <button type="submit" className="forgot-btn">
           Forgot Password?
         </button>
       </form>
       <div>
-        <img src=""/>
-        <img src=""/>
-        <img src=""/>
+     
       </div>
       <p>© Copyright Dyaz Innovate 2023. All rights reserved.</p>
     </div>
