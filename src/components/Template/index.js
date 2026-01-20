@@ -15,7 +15,7 @@ const TemplatePage = () => {
     const user = { name, region };
     setTemplateList(prevState => [...prevState, user]);
 
-    // reset (safe)
+  
     setName('');
     setRegion('');
   };
@@ -57,7 +57,6 @@ const TemplatePage = () => {
         </button>
       </form>
 
-      {/* ✅ Safe conditional rendering */}
       {templateList.length > 0 ? (
         <div>
           {templateList.map((each, index) => (
